@@ -148,7 +148,7 @@ header h1 {
 
 .premium-container {
     width: 90%;
-    height: 45vh;
+    height: 50vh;
     margin: 0 auto;
     padding-left: 3vw;
     padding-right: 3vw;
@@ -163,7 +163,7 @@ header h1 {
 
 .premium-container .subscribe-container {
     width: 95%;
-    height: 33vh;
+    height: 38vh;
     margin-left: auto;
     margin-right: auto;
     background-color: #ff82b1;
@@ -232,6 +232,7 @@ header h1 {
     width: 100%;
     margin-top: -2vh;
     padding-left: 2vw;
+    margin-bottom: 0;
 }
 
 .premium-benefits li {
@@ -241,4 +242,15 @@ header h1 {
 
 .premium-benefits li:before {
     content: '✓ ';
+}
+
+.join-premium {
+    height: 4vh;
+    width: 32vw;
+    background-color: #ffcfd2;
+    color: inherit;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: inherit;
+    margin-top: 1.1rem;
 }

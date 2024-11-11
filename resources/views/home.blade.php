@@ -74,6 +74,11 @@
                 <li>Generera upp till 10 outfits per dag (istället för 5)</li>
                 <li>Ingen reklam!</li>
             </ul>
+
+            <button class="join-premium">
+                SKAFFA PREMIUM
+            </button>
+
         </div>
     </div>
 
