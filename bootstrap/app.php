@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\BlockDesktopAccess;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -11,7 +12,7 @@ $app = Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->append(BlockDesktopAccess::class);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
