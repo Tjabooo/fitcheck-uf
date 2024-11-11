@@ -258,11 +258,11 @@ header h1 {
 .footer {
     position: relative;
     background-color: black;
-    width: 100vw;
+    width: 102vw;
     height: 33vh;
     display: flex;
     margin-left: -2.5vw;
-    margin-bottom: -2vh;
+    margin-bottom: -2.5vh;
     display: inline-block;
 }
 
