@@ -8,6 +8,15 @@
     box-sizing: border-box;
 }
 
+br {
+    display: block;
+    margin: 5px 0;
+}
+
+#smol {
+    all: unset;
+}
+
 header h4 {
     font-weight: normal;
     /* text-decoration: underline; */
@@ -138,7 +147,8 @@ header h1 {
 }
 
 .premium-container {
-    width: 80%;
+    width: 90%;
+    height: 45vh;
     margin: 0 auto;
     padding-left: 3vw;
     padding-right: 3vw;
@@ -153,7 +163,7 @@ header h1 {
 
 .premium-container .subscribe-container {
     width: 95%;
-    height: 23vh;
+    height: 30vh;
     margin-left: auto;
     margin-right: auto;
     background-color: #ff82b1;
@@ -213,9 +223,9 @@ header h1 {
 
 .premium-benefits {
     list-style-type: none;
-    background-color: red;
     text-align: left;
     width: 100%;
+    margin-top: 1vh;
 }
 
 .premium-benefits li {

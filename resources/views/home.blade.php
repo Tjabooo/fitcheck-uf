@@ -58,9 +58,9 @@
     </div>
 
     <div class="premium-container">
-        <h1 id="underline">SKAFFA PREMIUM<h1>
+        <h1 id="underline">BLI EN FASHION-STAR!<h1>
         <p>
-            Skaffa vår premium version för att få <br>tillgång till
+            Skaffa vår premium version för att få <br id="smol">tillgång till
             <span id="underline">exklusiva</span> funktioner!
         </p>
         <div class="subscribe-container">
@@ -71,6 +71,7 @@
             <p>INNEHÅLL:</p>
             <ul class="premium-benefits">
                 <li>Lägg in upp till 100 klädesplagg</li>
+                <br>
                 <li>Generera upp till 10 outfits per dag</li>
             </ul>
         </div>
