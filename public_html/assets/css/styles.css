@@ -93,7 +93,7 @@ header h1 {
 }
 
 .carousel-slide {
-    flex: 0 0 calc(100% / 2);
+    flex: 0 0 calc(100% / 3);
     box-sizing: border-box;
     padding: 20px;
     height: 100%;
