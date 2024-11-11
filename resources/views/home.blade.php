@@ -15,10 +15,8 @@
         <h1>FITCHECK.UF</h1>
     </header>
 
-    <div class="image-container">
-        <img src="{{ asset('assets/images/outfit_showcase.jpg') }}" alt="FitCheck">
-        <img src="{{ asset('assets/images/outfit_showcase2.jpg') }}" alt="FitCheck">
-    <div>
+    <img id="header-img" src="{{ asset('assets/images/outfit_showcase7.jpg') }}" alt="FitCheck">
+    <img id="header-img" src="{{ asset('assets/images/outfit_showcase9.jpg') }}" alt="FitCheck">
 
     <div class="go-to-app-container">
         <button>
@@ -45,11 +43,13 @@
         </button>
         <div class="carousel-track-container">
             <ul class="carousel-track">
+                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase8.jpg') }}" alt="FitCheck"></li>
                 <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase.jpg') }}" alt="FitCheck"></li>
-                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase2.jpg') }}" alt="FitCheck"></li>
+                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase10.jpg') }}" alt="FitCheck"></li>
+                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase11.jpg') }}" alt="FitCheck"></li>
+                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase6.jpg') }}" alt="FitCheck"></li>
                 <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase3.jpg') }}" alt="FitCheck"></li>
-                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase4.jpg') }}" alt="FitCheck"></li>
-                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase5.jpg') }}" alt="FitCheck"></li>
+                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase.jpg') }}" alt="FitCheck"></li>
             </ul>
         </div>
         <button class="carousel-button right">
