@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h4>VÄLKOMMEN TILL</h4>
+        <h4 id="underline">VÄLKOMMEN TILL</h4>
         <h1>FITCHECK.UF</h1>
     </header>
 
@@ -20,8 +20,16 @@
         <img src="{{ asset('assets/images/outfit_showcase2.jpg') }}" alt="FitCheck">
     <div>
 
+    <div>
+        <button class="go-to-app">
+            <a href="{{ route('app.redirect') }}">
+                GÅ TILL APPEN
+            </a>
+        </button>
+    </div>
+
     <div class="about-us">
-        <h1>OM OSS<h1>
+        <h1 id="underline">OM OSS<h1>
         <div class="text-container">
             <p>
                 Vi är ett UF-företag från Stockholm som består av
@@ -50,10 +58,10 @@
     </div>
 
     <div class="premium-container">
-        <h1>SKAFFA PREMIUM<h1>
+        <h1 id="underline">SKAFFA PREMIUM<h1>
         <p>
-            Skaffa vår premium version för få <br>tillgång till
-            <span>exklusiva</span> funktioner!
+            Skaffa vår premium version för att få <br>tillgång till
+            <span id="underline">exklusiva</span> funktioner!
         </p>
         <div class="subscribe-container">
             <h2>20KR/MÅNADEN</h2>
