@@ -78,8 +78,32 @@
             <button class="join-premium">
                 SKAFFA PREMIUM
             </button>
-
         </div>
+    </div>
+
+    <div class="footer">
+        <h2>
+            KONTAKTA OSS
+        </h2>
+
+        <p>
+            <img src="{{ asset('assets/icons/instagram-icon.png') }}" alt="Instagram">
+            INSTAGRAM: FITCHECK_UF
+        </p>
+        <p>
+            <img src="{{ asset('assets/icons/email-icon.png') }}" alt="Mejl">
+            MEJL: KONTAKT@FITCHECK.NU
+        </p>
+        <p>
+            <img src="{{ asset('assets/icons/location-icon.png') }}" alt="Address">
+            BORGARFJORDSGATAN 6C, 164 55 STOCKHOLM
+        </p>
+
+        <p class="footer-copyright">
+            @ 2024 FitCheckUF
+        </p>
+
+        <img class="footer-logo" src="{{ asset('assets/icons/bw-logo.png') }}" alt="FitCheckUF Logga">
     </div>
 
     <script src="{{ asset('assets/js/main.js') }}"></script>

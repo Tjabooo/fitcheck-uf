@@ -254,3 +254,50 @@ header h1 {
     outline: inherit;
     margin-top: 1.1rem;
 }
+
+.footer {
+    position: relative;
+    background-color: black;
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    margin-left: -2vw;
+    margin-bottom: -2vh;
+    display: inline-block;
+}
+
+.footer h2 {
+    color: white;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+}
+
+.footer p {
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 2.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.footer p img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    filter: invert(1);
+}
+
+.footer-copyright {
+    position: absolute;
+    bottom: 1vh;
+    margin: 0;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 1vh;
+    right: 1vh;
+    height: 10vh;
+}
