@@ -20,9 +20,9 @@
         <img src="{{ asset('assets/images/outfit_showcase2.jpg') }}" alt="FitCheck">
     <div>
 
-    <div>
-        <button class="go-to-app">
-            <a href="{{ route('app.redirect') }}">
+    <div class="go-to-app-container">
+        <button>
+            <a id="underline" href="{{ route('app.redirect') }}">
                 GÅ TILL APPEN
             </a>
         </button>
@@ -64,7 +64,15 @@
             <span id="underline">exklusiva</span> funktioner!
         </p>
         <div class="subscribe-container">
-            <h2>20KR/MÅNADEN</h2>
+            <h2>20KR/MÅNADEN
+                <span>240kr/år</span>
+            </h2>
+
+            <p>INNEHÅLL:</p>
+            <ul class="premium-benefits">
+                <li>Lägg in upp till 100 klädesplagg</li>
+                <li>Generera upp till 10 outfits per dag</li>
+            </ul>
         </div>
     </div>
 

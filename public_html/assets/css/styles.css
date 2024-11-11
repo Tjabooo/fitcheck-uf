@@ -93,7 +93,7 @@ header h1 {
 }
 
 .carousel-slide {
-    flex: 0 0 calc(100% / 3);
+    flex: 0 0 calc(100% / 2);
     box-sizing: border-box;
     padding: 20px;
     height: 100%;
@@ -142,10 +142,6 @@ header h1 {
     margin: 0;
 }
 
-.premium-content span {
-    /* text-decoration: underline; */
-}
-
 .premium-container {
     width: 80%;
     margin: 0 auto;
@@ -157,7 +153,6 @@ header h1 {
 }
 
 .premium-container h1 {
-    /* text-decoration: underline; */
     font-weight: bold;
 }
 
@@ -172,6 +167,7 @@ header h1 {
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .premium-container p {
@@ -184,18 +180,55 @@ header h1 {
 }
 
 .premium-container .subscribe-container h2 {
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.premium-container .subscribe-container span {
+    font-weight: normal;
+    font-size: 0.8rem;
+    display: block;
 }
 
 #underline {
     text-decoration: underline;
 }
 
-.go-to-app {
+.go-to-app-container {
+    width: fit-content;
+    margin-top: 2vh;
     margin-left: auto;
     margin-right: auto;
+}
+
+.go-to-app-container button {
+    height: 4vh;
+    width: 32vw;
+    background-color: #ffcfd2;
+    color: inherit;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: inherit;
+}
+
+.go-to-app-container button a {
+    text-decoration: none;
+    color: black;
+}
+
+.premium-benefits {
+    list-style-type: none;
+    background-color: red;
+    text-align: left;
+    width: 100%;
+}
+
+.premium-benefits li {
+    float: left;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.premium-benefits li:before {
+    content: '✓ ';
 }
