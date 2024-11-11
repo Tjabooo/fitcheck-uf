@@ -45,11 +45,11 @@
             <ul class="carousel-track">
                 <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase8.jpg') }}" alt="FitCheck"></li>
                 <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase.jpg') }}" alt="FitCheck"></li>
-                {{-- <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase10.jpg') }}" alt="FitCheck"></li> --}}
-                {{-- <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase11.jpg') }}" alt="FitCheck"></li> --}}
+                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase10.jpg') }}" alt="FitCheck"></li>
+                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase11.jpg') }}" alt="FitCheck"></li>
                 <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase6.jpg') }}" alt="FitCheck"></li>
                 <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase3.jpg') }}" alt="FitCheck"></li>
-                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase5.jpg') }}" alt="FitCheck"></li>
+                <li class="carousel-slide"><img src="{{ asset('assets/images/outfit_showcase.jpg') }}" alt="FitCheck"></li>
             </ul>
         </div>
         <button class="carousel-button right">
