@@ -71,7 +71,6 @@
             <p>INNEHÅLL:</p>
             <ul class="premium-benefits">
                 <li>Lägg in upp till 100 klädesplagg</li>
-                <br>
                 <li>Generera upp till 10 outfits per dag</li>
             </ul>
         </div>
