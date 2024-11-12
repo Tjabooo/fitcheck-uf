@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
   <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
+  <link rel="icon" href="{{ asset('favicon.ico') }}">
   <title>FitCheck UF</title>
   <style>
   </style>
