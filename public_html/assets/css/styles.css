@@ -213,7 +213,7 @@ header h1 {
 
 .go-to-app-container button {
     height: 4vh;
-    width: 32vw;
+    width: 55vw; /* 32vw */
     background-color: #ffcfd2;
     color: inherit;
     border: 1px solid #000;

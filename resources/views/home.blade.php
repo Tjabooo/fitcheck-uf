@@ -20,8 +20,8 @@
 
     <div class="go-to-app-container">
         <button>
-            <a id="underline" href="{{ route('app.redirect') }}">
-                GÅ TILL APPEN
+            <a id="underline" href="#"> {{--      {{ route('app.redirect') }}       --}}
+                GÅ TILL APPEN (KOMMER SNART...)
             </a>
         </button>
     </div>
