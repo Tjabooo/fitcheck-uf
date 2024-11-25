@@ -12,3 +12,6 @@ Route::get('/', function() {
 });
 
 Route::get('/app', [AppController::class, 'redirect'])->name('app.redirect');
+
+// temporary route for google forms
+Route::get('/formulär', [AppController::class, 'google_forms'])->name('app.google_forms');
